@@ -1,0 +1,160 @@
+body {
+    background-image: url(../img/img.aa5.jpg);
+    background-repeat: no-repeat;
+    background-size: 100% auto;
+}
+
+* {
+    font-size: 15px;
+}
+
+.body1 {
+    width: 60%;
+    height: auto;
+    text-align: center;
+    background: rgb(105, 111, 112, 0.6);
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 15%;
+    border-radius: 20px;
+}
+
+.body1 h1 {
+    display: block;
+    color: white;
+    padding-top: 3%;
+    font-size: 20px;
+}
+
+.body1 button {
+    color: white;
+    width: 50%;
+    height: 30px;
+    font-size: 20px;
+    background-image: linear-gradient(to top, #37ecba 0%, #72afd3 100%);
+    font-weight: 700px;
+    border: 0;
+
+    margin-bottom: 30px;
+
+    text-decoration: none;
+}
+
+.third a {
+    display: inline-block;
+}
+
+.then input {
+    width: 50%;
+    font-size: 20px;
+    border: 0px;
+    border-bottom: 2px solid white;
+    padding: 5px 10px;
+    background-color: #ffffff00;
+    color: #fff;
+}
+
+.body1 .nxet .then i {
+    color: #fff;
+}
+
+.last {
+    width: 50%;
+    height: 30px;
+    margin: 0 auto;
+    margin-top: 10px;
+}
+
+.body1 .last input {
+    float: left;
+}
+
+.body1 .last a {
+    display: inline-block;
+    text-decoration: none;
+    font-size: 10px;
+    float: right;
+    color: white;
+}
+
+
+
+.body1 .last a:hover {
+    color: rgb(220, 161, 84);
+}
+
+#num {
+    float: left;
+    display: inline-block;
+    font-size: 10px;
+
+}
+
+
+.third {
+    width: 50%;
+    margin: 0 auto;
+}
+
+.third a:hover {
+    background-image: linear-gradient(120deg, #89f7fe 0%, #66a6ff 100%);
+}
+
+.body1 .nxet .then input::-webkit-input-placeholder {
+    color: white;
+}
+
+.third button:hover {
+    background-image: linear-gradient(120deg, #89f7fe 0%, #66a6ff 100%);
+}
+
+.body1 .nxet .then span {
+    font-size: 20px;
+    color: white;
+}
+
+.body1 .nxet .then input:focus {
+    background-color: rgb(194, 214, 216);
+}
+
+.body1 .nxet .then input[type=text]:focus {
+    outline: none;
+}
+
+.body1 .nxet .then input[type=password]:focus {
+    outline: none;
+}
+
+.body1 {
+    margin-top: 350px;
+}
+
+.body1 {
+    -webkit-animation: slide-top 0.5s cubic-bezier(0.250, 0.460, 0.450, 0.940) both;
+    animation: slide-top 0.5s cubic-bezier(0.250, 0.460, 0.450, 0.940) both;
+}
+
+
+@-webkit-keyframes slide-top {
+    0% {
+        -webkit-transform: translateY(0);
+        transform: translateY(0);
+    }
+
+    100% {
+        -webkit-transform: translateY(-100px);
+        transform: translateY(-100px);
+    }
+}
+
+@keyframes slide-top {
+    0% {
+        -webkit-transform: translateY(0);
+        transform: translateY(0);
+    }
+
+    100% {
+        -webkit-transform: translateY(-100px);
+        transform: translateY(-100px);
+    }
+}
